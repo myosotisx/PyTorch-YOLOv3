@@ -1,5 +1,5 @@
 import imgaug.augmenters as iaa
-from .transforms import *
+from transforms import *
 
 class DefaultAug(ImgAug):
     def __init__(self, ):
